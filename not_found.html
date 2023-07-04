@@ -14,7 +14,7 @@
     <!-- The style.css file allows you to change the look of your web pages.
          If you include the next line in all your web pages, they will all share the same look.
          This makes it easier to make new pages for your site. -->
-    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+    <link href="style.css" rel="stylesheet" type="text/css" media="all">
   </head>
   <body>
     
@@ -47,8 +47,8 @@
                     
                 </aside>
                 <main>
-                    <h1>404 Page Not Found</h1>
-                    <p>Bad link. Try something else.</p>
+                    <h1>Error 404</h1>
+                    <p>Bad link? Try something else.</p>
 
 
                 </main>
@@ -57,8 +57,6 @@
                     <div class="box">
                         <p>07/02/2023</p>
                         <p>Just got the site up. Will possibly work on it more later. Not 100% on what to do with it yet.</p>
-                      <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
-<div class="elfsight-app-678ed7a9-0776-487a-bf7e-3eb58046302f"></div>
                     </div>
                 </aside>
             </div>
@@ -75,7 +73,7 @@
     the images as variables */
 
             :root {
-
+--body-bg-image: url('oriental-tiles.png');
                 /* colors */
                 --content: #43256E;
             }
@@ -117,12 +115,11 @@
 
             body {
                 font-family: 'Nunito', sans-serif;
-                margin: 0;
-                background-color: #3A3444;
+                margin: 0; 
                 /* you can delete the line below if you'd prefer to not use an image */
-                /* background-size: 65px;*/
+                background-size: 65px;
                 color: #fceaff;
-                background-image: var(--body-bg-image);
+                background: var(--body-bg-image);
             }
 
             * {
