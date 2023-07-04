@@ -10,11 +10,11 @@
     </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dreadful Freelance</title>
+    <title>Hire Me</title>
     <!-- The style.css file allows you to change the look of your web pages.
          If you include the next line in all your web pages, they will all share the same look.
          This makes it easier to make new pages for your site. -->
-    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+    <link href="style.css" rel="stylesheet" type="text/css" media="all">
   </head>
   <body>
     
@@ -75,7 +75,7 @@
     the images as variables */
 
             :root {
-
+--body-bg-image: url('oriental-tiles.png');
                 /* colors */
                 --content: #43256E;
             }
@@ -117,12 +117,11 @@
 
             body {
                 font-family: 'Nunito', sans-serif;
-                margin: 0;
-                background-color: #3A3444;
+                margin: 0; 
                 /* you can delete the line below if you'd prefer to not use an image */
-                /* background-size: 65px;*/
+                background-size: 65px;
                 color: #fceaff;
-                background-image: var(--body-bg-image);
+                background: var(--body-bg-image);
             }
 
             * {
