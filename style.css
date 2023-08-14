@@ -13,7 +13,6 @@ body {
   font-family: 'RobotoSlab';
   src: url(https://dreadfully.neocities.org/RobotoSlab/robotoslab-variablefont_wght-webfont.woff);
 }
-        <style>
             /* user styles */
 
             /* styles are what change the color and sizes of stuff on your site. */
@@ -277,4 +276,3 @@ body {
                     flex-wrap: wrap;
                 }
             }
-        </style>
